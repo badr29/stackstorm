@@ -1,7 +1,7 @@
 version: '2.2'
 services:
   stackstorm:
-    image: bazillasoft/stackstorm
+    image: bazillasoft/stackstorm:version1
     container_name: stackstorm
     privileged: true
     cap_add:
