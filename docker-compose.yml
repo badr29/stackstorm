@@ -1,7 +1,7 @@
 version: '2.2'
 services:
   stackstorm:
-    image: solita/ubuntu-systemd
+    image: bazillasoft/stackstorm
     container_name: stackstorm
     privileged: true
     cap_add:
